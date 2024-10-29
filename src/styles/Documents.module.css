@@ -1,0 +1,54 @@
+/* styles/Documents.module.css */
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.breadcrumbWrapper {
+  text-align: center;
+}
+
+.breadcrumbInner {
+  display: inline-block;
+}
+
+.breadcrumbInner h1 {
+  margin: 0;
+}
+
+.breadcrumbInner span {
+  font-size: 16px;
+}
+
+.galleryArea {
+  padding: 40px 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.tableWrapper .table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  border: 1px solid #1057ab;
+  padding: 20px;
+  overflow-x: auto !important;  }
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
